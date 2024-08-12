@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0px 1px;
+    padding: 0;
+}
+
+
+header {
+    border-bottom: 1px solid #e4e4e4;
+
+}
+
+.page_width {
+    max-width: 1091px;
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.align-items-center {
+
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 60%;
+}
+
+nav {
+    flex-basis: 80%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav ul li a {
+    font-size: 27px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    color: #000;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: rgb(76, 166, 250);
+}
+
+/*------------------------------------ END HEDER ------------------------------------*/
+/*------------------------------------ HERO BANNER -----------------------------------*/
+
+.hero_banner {
+    background-image: url(../image/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-color: #929292;
+    background-blend-mode: multiply;
+    padding: 4%;
+    margin-right: 0px;
+}
+
+
+.hero_content {
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero_content h1 {
+    color: #fd8f00;
+    text-align: center;
+    font-size: 55px;
+}
+
+.hero_content h2 {
+    color: #e4e4e4;
+    font-size: 50px;
+
+}
+
+.hero_content p {
+    color: #d0d1d3;
+    font-size: 29px;
+    text-align: center;
+}
+
+.hero_content a {
+    color: #ffffff;
+    background-color: #3b85d7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 42px;
+    display: block;
+    border: 3px solid #23c2ec;
+    border-radius: 8px;
+    padding: 9px 16px;
+    margin: 4px 2px;
+}
+
+/*---------------------------------- END HERO BANNER ----------------------------------*/
+/*------------------------------------ ABOUT MY SELF -----------------------------------*/
+.about {
+    margin: 29px 0px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #aba99f;
+}
+
+.about_image img {
+    max-width: 399px;
+    margin: 8px 23px 8px 8px;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 9px;
+}
+
+.about_text h2 {
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    text-decoration:underline;
+    
+}
+
+.about_text p {
+    font-size: 29px;
+    padding: 121px 39px 121px 39px;
+}
+/*---------------------------------- END ABOUT MY SELF -----------------------------------*/
+/*---------------------------------- GALLERY -----------------------------------*/
+
+.gallery {
+    margin: 108px 0px;
+    padding: 0px 22px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.gallery_image img {
+    width: 288px;
+    margin: 12px 24px 6px;
+    border: 4px solid #aba99f;
+    border-radius: 9px;
+    height: 461px;
+}
+
+.gallery_text {
+    text-align: center;
+    margin: auto;
+}
+.gallery h2{
+    font-size: 75px;
+
+}
+.gallery p{
+    font-size: 30px;
+    font-variant:small-caps;
+}
+
+/*---------------------------------- END GALLERY -----------------------------------*/
